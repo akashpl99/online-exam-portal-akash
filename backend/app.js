@@ -11,6 +11,10 @@ var passport = require("./services/passportconf");
 var app = express();
 const cors = require('cors');
 
+
+//text add   check   here
+
+
 app.use(helmet());
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
